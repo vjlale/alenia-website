@@ -9,7 +9,7 @@ export default defineConfig({
     assetsDir: 'assets',
     sourcemap: false,
     rollupOptions: {
-      input: '/index.html', // Especificar explícitamente el archivo de entrada
+      input: 'index.html', // Especificar explícitamente el archivo de entrada
       output: {
         manualChunks: {
           vendor: ['react', 'react-dom'],
