@@ -3,12 +3,13 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // Cambiado de '/' a './' para rutas relativas
+  base: './', 
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: false,
     rollupOptions: {
+      input: '/index.html', // Especificar explícitamente el archivo de entrada
       output: {
         manualChunks: {
           vendor: ['react', 'react-dom'],
