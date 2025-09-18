@@ -8,10 +8,11 @@ export default {
     extend: {
       colors: {
         'alenia': {
-          'primary': '#00ff88',
-          'secondary': '#0066ff',
+          'primary': '#00ffff',
+          'secondary': '#ff6b6b',
           'accent': '#ff0066',
-          'dark': '#0a0a0a',
+          'dark': '#0a0f1c',
+          'darker': '#040711',
           'light': '#f8fafc'
         }
       },

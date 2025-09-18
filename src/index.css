@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --alenia-primary: #00ffff;
+  --alenia-secondary: #ff6b6b;
+  --alenia-dark: #0a0f1c;
+  --alenia-darker: #040711;
+  --alenia-light: #f8fafc;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, var(--alenia-primary), var(--alenia-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.neon-glow {
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}

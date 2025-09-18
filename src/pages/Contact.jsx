@@ -394,7 +394,7 @@ const Contact = () => {
                     </div>
                     <div className="flex items-center space-x-3 text-alenia-light/80">
                       <Zap className="w-4 h-4 text-alenia-primary" />
-                      <span>Respuesta promedio: < 4 horas</span>
+                      <span>Respuesta promedio: &lt; 4 horas</span>
                     </div>
                   </div>
                 </div>
